@@ -52,13 +52,75 @@ An AI-powered chatbot web application inspired by ChatGPT — built with the **M
 
 1. **Clone the repository**
 ```bash
-   git clone https://github.com/aarohiyadav44001-commits/AI-ChatBot.git
-   cd AI-ChatBot
+git clone https://github.com/aarohiyadav44001-commits/AI-ChatBot.git
+cd AI-ChatBot
 ```
 
 2. **Setup the Backend**
 ```bash
-   cd Backend
-   npm install
+cd Backend
+npm install
 ```
    Create a `.env` file in the `Backend` folder and add:
+```
+MONGODB_URI=your_mongodb_connection_string
+```
+   Start the backend server:
+```bash
+node server.js
+```
+
+3. **Setup the Frontend**
+```bash
+cd ../Frontend
+npm install
+npm run dev
+```
+
+4. **Open the app** 🎉
+   Visit `http://localhost:5173` in your browser.
+
+---
+
+## 📂 Project Structure
+
+```
+AI-ChatBot/
+├── Backend/
+│   ├── models/
+│   ├── routes/
+│   ├── utils/
+│   └── server.js
+├── Frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   └── index.html
+└── README.md
+```
+
+---
+
+## 💡 Future Improvements
+
+- 🔐 User authentication & login
+- 🌗 Light/Dark theme toggle
+- 📤 Export chat as PDF/text
+- 🔍 Search within chat history
+
+---
+
+## 🙌 Acknowledgements
+
+Built as a learning project to understand full-stack development with React, Node.js, and MongoDB, along with integrating AI APIs. 💻❤️
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+⭐ **If you like this project, consider giving it a star!** ⭐
