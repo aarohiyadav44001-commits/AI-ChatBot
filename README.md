@@ -1,16 +1,64 @@
-# React + Vite
+# 🤖 AI-ChatBot
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An AI-powered chatbot web application inspired by ChatGPT — built with the **MERN-style stack** (MongoDB, Express, React, Node.js). Chat with AI, manage multiple conversation threads, and enjoy a smooth, ChatGPT-like experience! ✨
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Screenshots
 
-## React Compiler
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aarohiyadav44001-commits/AI-ChatBot/main/Frontend/src/assets/chatbot1.png" alt="Chat Interface" width="80%">
+</p>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aarohiyadav44001-commits/AI-ChatBot/main/Frontend/src/assets/chatbot2.png" alt="Chat History" width="80%">
+</p>
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🌟 Features
+
+- 💬 **Real-time AI Chat** — Get intelligent responses powered by AI
+- 🧵 **Thread Management** — Create, switch between, and manage multiple chat threads
+- 📜 **Chat History** — All your previous conversations are saved and easily accessible
+- ⌨️ **Typing Effect** — Responses appear with a smooth typewriter animation
+- 📝 **Markdown Support** — AI responses support formatted text, code blocks, and syntax highlighting
+- 🎨 **Clean, Dark-themed UI** — A modern and minimal chat interface
+- 📱 **Responsive Design** — Works smoothly across different screen sizes
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+- ⚛️ React (Vite)
+- 🎨 CSS3
+- 📄 React Markdown + Rehype Highlight
+
+**Backend:**
+- 🟢 Node.js
+- 🚂 Express.js
+- 🍃 MongoDB (Mongoose)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js installed 🟢
+- MongoDB Atlas account (or local MongoDB) 🍃
+
+### Installation
+
+1. **Clone the repository**
+```bash
+   git clone https://github.com/aarohiyadav44001-commits/AI-ChatBot.git
+   cd AI-ChatBot
+```
+
+2. **Setup the Backend**
+```bash
+   cd Backend
+   npm install
+```
+   Create a `.env` file in the `Backend` folder and add:
